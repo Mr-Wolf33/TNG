@@ -3,51 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Star Trek TNG Interface</title>
+  <title>TNG Computer Interface</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Scrolling alert message -->
+  <div class="grid"></div>
+  
+  <!-- Alert Section at the top -->
   <div class="alert">
-    <div class="scroll-text">Green: All systems functioning normally.</div>
+    <div class="scroll-text">ALERT: Message from Starfleet Command: All systems functioning within optimal parameters.</div>
   </div>
-
-  <!-- Main container with menu and content -->
+  
   <div class="container">
-    <!-- Left Menu Column -->
-    <div class="menu">
+    <aside class="menu">
       <h2>Ship Systems</h2>
       <button class="menu_nav">Navigation</button>
       <button class="menu-btn">Weapons</button>
-      <button class="menu-btn">Shields</button> <!-- Engineering changed to Shields -->
+      <button class="menu-btn">Shields</button>
+      <button class="menu-btn">Engineering</button>
       <button class="menu-btn">Sensors</button>
-      <button class="menu-btn">Life Support</button>
-      <button class="menu-btn">Engineering</button> <!-- Communications changed to Engineering -->
       <button class="menu-btn">Transporters</button>
-    </div>
-
-    <!-- Main Content -->
+      <button class="menu-btn">Power Systems</button>
+      <button class="menu-btn">Security</button>
+    </aside>
     <main>
-      <div class="header">
-        <h1>USS Enterprise-D Status Console</h1>
-      </div>
-      <div class="section">
+      <header class="header">
+        <h1>Starfleet Operations</h1>
+      </header>
+      <section class="section">
         <h2>System Status</h2>
-        <p>All systems are fully operational. No issues reported.</p>
-      </div>
-      <div class="section">
-        <h2>Diagnostic Logs</h2>
-        <p>Routine system diagnostics are running smoothly.</p>
-      </div>
+        <p>The ship's systems are fully operational.</p>
+        <button>Access Data</button>
+      </section>
+      <section class="section">
+        <h2>Message Log</h2>
+        <p>Latest message will appear here.</p>
+      </section>
+      <footer>
+        <p>&copy; 2025 Starfleet Command. All Rights Reserved.</p>
+      </footer>
     </main>
   </div>
-
-  <!-- Footer -->
-  <footer>
-    <p>USS Enterprise-D | Star Trek: The Next Generation Interface</p>
-  </footer>
-
 </body>
 </html>
 
