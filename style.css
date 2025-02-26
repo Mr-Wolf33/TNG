@@ -7,5 +7,157 @@
 
 body {
   font-family: 'Courier New', Courier, monospace; /* Monospaced font for the tech look */
-  background-col
+  background-color: #d3d7e1; /* Pastel grayish blue background */
+  color: #6c7a4c; /* Soft pastel green text */
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
+/* Adding a subtle pastel glow effect to the text */
+h1, h2, h3, p {
+  text-shadow: 0 0 10px rgba(108, 122, 76, 0.5), 0 0 20px rgba(108, 122, 76, 0.5); 
+  font-weight: normal;
+}
+
+/* Container with grid layout */
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  width: 90%;
+  max-width: 1200px;
+  color: #5a6a3e;
+}
+
+.header {
+  grid-column: span 12;
+  background: #f0f4f7; /* Pastel light grayish blue */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #a3b89c; /* Soft pastel green */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on bottom-right */
+}
+
+.header h1 {
+  color: #6c7a4c; /* Pastel green */
+  text-shadow: none;
+  font-size: 2.5rem;
+}
+
+.section {
+  background: #e2e8f0; /* Pastel soft blue */
+  padding: 20px;
+  border: 2px solid #ffb6a2; /* Pastel peachy border */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15); /* Shadow on bottom-right */
+}
+
+.section h2 {
+  color: #ffb6a2; /* Pastel peachy orange */
+  font-size: 1.8rem;
+  text-shadow: none;
+}
+
+.section p {
+  color: #7f8b87; /* Soft gray text for general readability */
+}
+
+/* Neon Grid Background (pastel toned) */
+.grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(108, 122, 76, 0.1) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(108, 122, 76, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Pastel Neon buttons with hover effect */
+button {
+  background-color: #f3f6f9; /* Light pastel background */
+  color: #6c7a4c; /* Pastel green text */
+  border: 1px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 10px; /* Rounded corners */
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
+
+button:hover {
+  background-color: #a3b89c; /* Soft pastel green background */
+  color: #f0f4f7; /* Light pastel gray text */
+  text-shadow: 0 0 10px rgba(108, 122, 76, 0.5), 0 0 20px rgba(108, 122, 76, 0.5);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+/* Animated Scrolling Data (pastel colors) */
+.scroll-text {
+  font-family: 'Courier New', Courier, monospace;
+  color: #6c7a4c; /* Pastel green */
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  position: relative;
+  animation: scrollText 10s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #f0f4f7; /* Pastel light grayish blue */
+  color: #6c7a4c; /* Pastel green */
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  border-top: 2px solid #a3b89c; /* Soft pastel green border */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on bottom-right */
+}
+
+/* Code blocks for a futuristic pastel look */
+code {
+  background-color: #e9f2f4; /* Very light pastel blue */
+  color: #6c7a4c; /* Pastel green text */
+  padding: 5px 10px;
+  border-radius: 10px; /* Rounded corners */
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid #a3b89c; /* Soft pastel green border */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow on bottom-right */
+}
+
+/* A few common text elements */
+h2, h3 {
+  color: #ffb6a2; /* Pastel peachy orange */
+}
+
+p {
+  color: #7f8b87; /* Soft gray for general text */
+}
+
+/* Footer elements */
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
