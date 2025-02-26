@@ -93,6 +93,10 @@ h1, h2, h3, p {
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
 }
 
+.nav {
+  background-color: #d3d7e1; /* Light grey background */
+}
+
 .menu-btn:hover {
   background-color: #a3b89c; /* Soft pastel green background */
   color: #f0f4f7; /* Light pastel gray text */
