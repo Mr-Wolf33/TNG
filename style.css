@@ -62,4 +62,128 @@ h1, h2, h3, p {
 /* Left Menu styling */
 .menu {
   width: 250px;
+  background-color: #f0f4f7; /* Pastel light grayish blue */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1); /* Shadow on bottom-right */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
+.menu h2 {
+  color: #6c7a4c; /* Pastel green */
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.menu-btn {
+  background-color: #e2e8f0; /* Pastel soft blue */
+  color: #6c7a4c; /* Pastel green text */
+  border: 2px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
+
+.menu-btn:hover {
+  background-color: #a3b89c; /* Soft pastel green background */
+  color: #f0f4f7; /* Light pastel gray text */
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+/* Container with grid layout */
+.container {
+  display: grid;
+  grid-template-columns: 250px 1fr; /* Left menu and main content */
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  color: #5a6a3e;
+  margin-top: 80px; /* Added space to avoid overlap with the alert */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Header styling */
+.header {
+  background: #f0f4f7; /* Pastel light grayish blue */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #a3b89c; /* Soft pastel green */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on bottom-right */
+}
+
+.header h1 {
+  color: #6c7a4c; /* Pastel green */
+  font-size: 2.5rem;
+}
+
+/* Section styling */
+.section {
+  background: #e2e8f0; /* Pastel soft blue */
+  padding: 20px;
+  border: 2px solid #ffb6a2; /* Pastel peachy border */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15); /* Shadow on bottom-right */
+}
+
+.section h2 {
+  color: #ffb6a2; /* Pastel peachy orange */
+  font-size: 1.8rem;
+  text-shadow: none;
+}
+
+.section p {
+  color: #7f8b87; /* Soft gray text for general readability */
+}
+
+/* Neon Grid Background (pastel toned) */
+.grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(108, 122, 76, 0.1) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(108, 122, 76, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Footer styling */
+footer {
+  background-color: #f0f4f7; /* Pastel light grayish blue */
+  color: #6c7a4c; /* Pastel green */
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  border-top: 2px solid #a3b89c; /* Soft pastel green border */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on bottom-right */
+  margin-top: 20px;
+}
+
+/* Code blocks for a futuristic pastel look */
+code {
+  background-color: #e9f2f4; /* Very light pastel blue */
+  color: #6c7a4c; /* Pastel green text */
+  padding: 5px 10px;
+  border-radius: 10px; /* Rounded corners */
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid #a3b89c; /* Soft pastel green border */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow on bottom-right */
+}
