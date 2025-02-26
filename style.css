@@ -25,8 +25,8 @@ h1, h2, h3, p {
 
 /* Alert Section Styling */
 .alert {
-  background-color: #ffcc00; /* Bright yellow for alert */
-  color: #6c7a4c; /* Pastel green text */
+  background-color: #c6f7d4; /* Light green background for the alert */
+  color: #3c6e47; /* Darker green text for normal status */
   padding: 15px;
   font-size: 1.2rem;
   font-weight: bold;
@@ -42,7 +42,7 @@ h1, h2, h3, p {
 
 .scroll-text {
   font-family: 'Courier New', Courier, monospace;
-  color: #6c7a4c; /* Pastel green */
+  color: #3c6e47; /* Dark green text for alert message */
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
@@ -187,3 +187,4 @@ code {
   border: 1px solid #a3b89c; /* Soft pastel green border */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow on bottom-right */
 }
+
