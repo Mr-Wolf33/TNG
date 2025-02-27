@@ -81,6 +81,7 @@ h1, h2, h3, p {
 .menu-btn {
   background-color: #e2e8f0; /* Pastel soft blue */
   color: #6c7a4c; /* Pastel green text */
+  font-weight: bold;
   border: 2px solid #a3b89c; /* Soft pastel green border */
   padding: 10px 20px;
   font-size: 1.2rem;
@@ -95,6 +96,7 @@ h1, h2, h3, p {
 #nav {
   background-color: #49cc4c; /* Pastel soft blue */
   color: black; /* Pastel green text */
+  font-weight: bold;
   border: 2px solid #a3b89c; /* Soft pastel green border */
   padding: 10px 20px;
   font-size: 1.2rem;
@@ -110,6 +112,7 @@ h1, h2, h3, p {
 #wep {
   background-color: #c43d2b; /* Pastel soft blue */
   color: black; /* Pastel green text */
+  font-weight: bold;
   border: 2px solid #a3b89c; /* Soft pastel green border */
   padding: 10px 20px;
   font-size: 1.2rem;
