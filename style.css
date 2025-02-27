@@ -42,7 +42,7 @@ h1, h2, h3, p {
 
 .scroll-text {
   font-family: 'Courier New', Courier, monospace;
-  color: #3c6e47; /* Dark green text for alert message */
+  color: #34bdeb;/*#3c6e47; /* Dark green text for alert message */
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
