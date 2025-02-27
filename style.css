@@ -74,6 +74,7 @@ h1, h2, h3, p {
 
 .menu h2 {
   color: #6c7a4c; /* Pastel green */
+  font-weight: bold;
   margin-bottom: 20px;
   font-size: 1.8rem;
   font-weight: bold;
