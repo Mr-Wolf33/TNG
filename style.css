@@ -47,7 +47,7 @@ h1, h2, h3, p {
   white-space: nowrap;
   box-sizing: border-box;
   position: relative;
-  animation: scrollText 10s linear infinite;
+  animation: scrollText 20s linear infinite;
 }
 
 @keyframes scrollText {
