@@ -92,6 +92,50 @@ h1, h2, h3, p {
   transition: all 0.3s ease;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
 }
+.menu-btn-nav {
+  background-color: #f7e431 /* Pastel soft blue */
+  color: #6c7a4c; /* Pastel green text */
+  border: 2px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
+
+.menu-btn-wep {
+  background-color: #c43d2b /* Pastel soft blue */
+  color: #6c7a4c; /* Pastel green text */
+  border: 2px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
+
+.menu-btn-shd {
+  background-color: #4952cc /* Pastel soft blue */
+  color: #6c7a4c; /* Pastel green text */
+  border: 2px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
 
 .menu-btn:hover {
   background-color: #a3b89c; /* Soft pastel green background */
