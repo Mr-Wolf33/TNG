@@ -20,7 +20,7 @@ body {
 /* Adding a subtle pastel glow effect to the text */
 h1, h2, h3, p {
   text-shadow: 0 0 10px rgba(108, 122, 76, 0.5), 0 0 20px rgba(108, 122, 76, 0.5); 
-  font-weight: normal;
+  font-weight: bold;
 }
 
 /* Alert Section Styling */
