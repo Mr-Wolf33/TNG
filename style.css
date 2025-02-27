@@ -93,7 +93,7 @@ h1, h2, h3, p {
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
 }
 #nav {
-  background-color: #f7e431 /* Pastel soft blue */
+  background-color: #f7e431; /* Pastel soft blue */
   color: #6c7a4c; /* Pastel green text */
   border: 2px solid #a3b89c; /* Soft pastel green border */
   padding: 10px 20px;
@@ -108,7 +108,7 @@ h1, h2, h3, p {
 }
 
 #wep {
-  background-color: #c43d2b /* Pastel soft blue */
+  background-color: #c43d2b; /* Pastel soft blue */
   color: #6c7a4c; /* Pastel green text */
   border: 2px solid #a3b89c; /* Soft pastel green border */
   padding: 10px 20px;
@@ -123,7 +123,7 @@ h1, h2, h3, p {
 }
 
 #shd {
-  background-color: #4952cc /* Pastel soft blue */
+  background-color: #4952cc; /* Pastel soft blue */
   color: #6c7a4c; /* Pastel green text */
   border: 2px solid #a3b89c; /* Soft pastel green border */
   padding: 10px 20px;
