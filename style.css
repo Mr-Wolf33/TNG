@@ -128,6 +128,87 @@ h1, h2, h3, p {
 #shd {
   background-color: #4952cc; /* Pastel soft blue */
   color: black; /* Pastel green text */
+  font-weight: bold;
+  border: 2px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
+
+#eng {
+  background-color: #ebe654; /* Pastel soft blue */
+  color: black; /* Pastel green text */
+  font-weight: bold;
+  border: 2px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
+
+#tnp {
+  background-color: #54ebde; /* Pastel soft blue */
+  color: black; /* Pastel green text */
+  font-weight: bold;
+  border: 2px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
+
+#sen {
+  background-color: #bb54eb; /* Pastel soft blue */
+  color: black; /* Pastel green text */
+  font-weight: bold;
+  border: 2px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
+
+#pow {
+  background-color: #c75228; /* Pastel soft blue */
+  color: black; /* Pastel green text */
+  font-weight: bold;
+  border: 2px solid #a3b89c; /* Soft pastel green border */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  margin: 10px 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1); /* Shadow on right-bottom */
+}
+
+#sec {
+  background-color: #a11d26; /* Pastel soft blue */
+  color: black; /* Pastel green text */
+  font-weight: bold;
   border: 2px solid #a3b89c; /* Soft pastel green border */
   padding: 10px 20px;
   font-size: 1.2rem;
