@@ -76,6 +76,7 @@ h1, h2, h3, p {
   color: #6c7a4c; /* Pastel green */
   margin-bottom: 20px;
   font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .menu-btn {
