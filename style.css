@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Courier New', Courier, monospace; /* Monospaced font for the tech look */
-  background-color: #d3d7e1; /* Pastel grayish blue background */
+  background-color: #000000; /* Pastel grayish blue background */
   color: #6c7a4c; /* Soft pastel green text */
   line-height: 1.6;
   display: flex;
@@ -42,7 +42,7 @@ h1, h2, h3, p {
 
 .scroll-text {
   font-family: 'Courier New', Courier, monospace;
-  color: #34bdeb;/*#3c6e47; /* Dark green text for alert message */
+  color: #3c6e47; /* Dark green text for alert message */
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
