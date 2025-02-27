@@ -62,7 +62,7 @@ h1, h2, h3, p {
 /* Left Menu styling */
 .menu {
   width: 250px;
-  background-color: #52, 189, 235; /* Pastel light grayish blue */
+  background-color: #34bdeb; /* Pastel light grayish blue */
   padding: 20px;
   border-radius: 12px;
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1); /* Shadow on bottom-right */
